@@ -9,14 +9,20 @@
 int main(void)
 {
 	char *collect;
+	char **verart;
 
 	while (true)
 	{
 		printf("$ ");
 		collect = get_input();
-		printf(collect);
-	}
+		verart = split_line(collect);
 
-	free(collect);
+		if (verart[0] != NULL)
+		{
+			shell_execute(verart);
+		}
+		free(collect);
+		free(verart);
+	}
 	return (0);
 }
