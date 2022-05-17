@@ -31,7 +31,6 @@ int shell_num_builtins()
 void shell_execute(char **args)
 {
 	int i = 0;
-	pid_t child_pid = fork();
 
 	for (i = 0; i < shell_num_builtins(); i++)
 	{
@@ -42,6 +41,7 @@ void shell_execute(char **args)
 		}
 	}
 
+	pid_t child_pid = fork();
 
 	if (child_pid == 0)
 	{

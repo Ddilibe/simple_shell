@@ -21,4 +21,8 @@
 	void shell_cd(char **args);
 	void shell_exit(char **args);
 	void pause_shell(char **args);
+	int semicolon(char **args);
+	void shell_display(char **args);
+	int shell_extra();
+	int shell_num_builtins();
 #endif
