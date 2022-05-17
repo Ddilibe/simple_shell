@@ -2,7 +2,7 @@
 
 /**
  * get_input - Function to get the standard input
- *
+ * @void: an empty argument
  * Return: The Result
  */
 

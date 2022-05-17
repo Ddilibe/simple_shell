@@ -20,4 +20,5 @@
 	void shell_help(char **args);
 	void shell_cd(char **args);
 	void shell_exit(char **args);
+	void pause_shell(char **args);
 #endif

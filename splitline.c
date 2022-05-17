@@ -1,5 +1,12 @@
 #include "main.h"
 
+/**
+ * split_line - Function to split
+ * the inputed commands into arguments
+ * @line: Inputed argument
+ * Return: Return the argumented inputs
+ */
+
 char **split_line(char *line)
 {
 	int length = 0;

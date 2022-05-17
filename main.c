@@ -2,7 +2,7 @@
 
 /**
  * main - Running the main file
- *
+ * @void: an empty argument
  * Return: Always 0
  */
 
